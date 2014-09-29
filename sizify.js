@@ -1,4 +1,4 @@
-var bodyfier = new function () {
+var sizify = new function () {
    'use strict';
    
    var DEFAULT_CLASS = null,

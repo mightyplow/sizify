@@ -5,7 +5,7 @@ A small script to add classes to the body depending on the client width
 
 This small script helps to handle different client widths. You can define client widths and appropriate class names to be added to the body. This can be useful to handle different browser widths with __CSS__ or __JavaScript__.
 
-The script creates the method bodyfier which accepts an optional parameter (object) which sets up the widths and classes to be used.
+The script creates the method sizify which accepts an optional parameter (object) which sets up the widths and classes to be used.
 
 The defaults (used when no parameter is given) is following object
 ```
@@ -22,14 +22,14 @@ Example:
 ========
 ```
 # the default values get enabled
-bodyfier(); 
+sizify(); 
 
 
 #clients from 0 to 600 => class 'foo'
 #clients from 601 to 1200 => class 'bar'
 #clients from 1201 to 1600 => class 'baz'
 #clients above 1600 => class 'my-default'
-bodyfier ({
+sizify ({
   foo: 600,
   bar: 1200,
   baz: 1600,
