@@ -1,4 +1,4 @@
-bodyfier
+sizify
 ========
 
 A small script to add classes to the body depending on the client width
