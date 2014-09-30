@@ -5,6 +5,8 @@ A small script to add classes to the body depending on the client width
 
 This small script helps to handle different client widths. You can define client widths and appropriate class names to be added to the body. This can be useful to handle different browser widths with __CSS__ or __JavaScript__.
 
+The classes get automatically updated when the window gets resized.
+
 The script creates the method sizify which accepts an optional parameter (object) which sets up the widths and classes to be used.
 
 The defaults (used when no parameter is given) is following object
